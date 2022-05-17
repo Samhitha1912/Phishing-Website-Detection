@@ -73,6 +73,6 @@ python app.py
 
 You should be able to view the webpage titled 'Phishing Website Detection'. 
 
-Enter valid numerical values(1:completely phished or -1:legitimate or 0:partially phished) in all the input boxes comprising of various features of the website.
+Enter valid numerical values (1 for completely phished, -1 for legitimate or 0 for partially phished) in all the input boxes comprising of various features of the website.
 
 If everything goes well, you should be able to see the predcited nature of website on page!
