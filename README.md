@@ -37,7 +37,6 @@ Steps Involved:
 2. Loading the dataset
 3. Data visualization using countplot and heatmap
 4. Training and testing the models
-5. Conclusion
 
 Results:
 ```
