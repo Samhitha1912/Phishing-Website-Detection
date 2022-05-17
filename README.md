@@ -1,9 +1,9 @@
 # Phishing-Website-Detection
 
-This project aims at analysing how different ML algorithms can be utilized to predict if a website is legitimate or a phishing one.
+This project aims to analyse how different ML algorithms can be utilized to predict if a website is legitimate or a phishing one.
 
 ### Project Structure
-This project has four major parts :
+The project has four major parts :
 
 1. phishing_website.py - This contains the code for our Machine Learning model to predict if a website is legitimate or not, based on training data in 'dataset.csv' file.
 2. app.py - This contains Flask APIs that receives details about the various features of a website through GUI or API calls, determines if it is phishing or legitimate based on our model and returns the value.
@@ -40,7 +40,13 @@ Steps Involved:
 5. Conclusion
 
 Results:
-
+```
+	Model	Accuracy	Training time (sec)
+0	DecisionTreeClassifier	0.954778	0.44
+1	RandomForestClassifier	0.950558	0.55
+2	LogisticRegression	0.925837	0.07
+3	BernoulliNB	0.903527	0.02
+```
 1. The highest accuracy obtained is 95.478% using Decision tree classifier while least time for training a model is 0.02s using Naive Bayes.
 2. The least accuracy obtained is 90.352% using Naive Bayes while highest time for training a model is 0.55s using Random Forest.
 
@@ -61,7 +67,7 @@ This would create a serialized version of our model into a file model.pkl
 python app.py
 ```
 
-3. You will be navigated to the appropriate URL
+4. You will be navigated to the appropriate URL
 
 You should be able to view the webpage titled 'Phishing Website Detection'. 
 
