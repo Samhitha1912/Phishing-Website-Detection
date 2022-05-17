@@ -5,10 +5,10 @@ This project aims to analyse how different ML algorithms can be utilized to pred
 ### Project Structure
 The project has four major parts :
 
-1. phishing_website.py - This contains the code for our Machine Learning model to predict if a website is legitimate or not, based on training data in 'dataset.csv' file.
-2. app.py - This contains Flask APIs that receives details about the various features of a website through GUI or API calls, determines if it is phishing or legitimate based on our model and returns the value.
+1. phishing_website.py - This contains the code for our Machine Learning model to predict if a website is legitimate or not, based on training data in 'dataset.csv' 			      file.
+2. app.py - This contains Flask APIs that receives details about the various features of a website through GUI or API calls, determines if it is phishing or legitimate 	    based on our model and returns the value.
 3. requirements.txt - This text file has information about all the libraries, modules and packages that have been used while developing this project.
-4. stream.py - This is used to create a webpage using Streamlit library that allows users to enter features of the website and displays the predicted nature of website.
+4. stream.py - This is used to create a webpage using Streamlit library that allows users to enter features of the website and displays the predicted nature of 	       website.
 
 ### Dataset
 
@@ -41,12 +41,14 @@ Steps Involved:
 
 Results:
 ```
-	Model	Accuracy	Training time (sec)
+	Model			Accuracy	Training time (sec)
 0	DecisionTreeClassifier	0.954778	0.44
 1	RandomForestClassifier	0.950558	0.55
 2	LogisticRegression	0.925837	0.07
-3	BernoulliNB	0.903527	0.02
+3	BernoulliNB		0.903527	0.02
 ```
+
+Conclusion:
 1. The highest accuracy obtained is 95.478% using Decision tree classifier while least time for training a model is 0.02s using Naive Bayes.
 2. The least accuracy obtained is 90.352% using Naive Bayes while highest time for training a model is 0.55s using Random Forest.
 
