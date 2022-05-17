@@ -8,7 +8,7 @@ The project has four major parts :
 1. phishing_website.py - This contains the code for our Machine Learning model to predict if a website is legitimate or not, based on training data in 'dataset.csv' 			      file.
 2. app.py - This contains Flask APIs that receives details about the various features of a website through GUI or API calls, determines if it is phishing or legitimate 	    based on our model and returns the value.
 3. requirements.txt - This text file has information about all the libraries, modules and packages that have been used while developing this project.
-4. stream.py - This is used to create a webpage using Streamlit library that allows users to enter features of the website and displays the predicted nature of 	       website.
+4. stream.py - This is used to create a webpage using Streamlit library that allows users to enter features of the website URL and displays the predicted nature of 	       website.
 
 ### Dataset
 
@@ -72,6 +72,6 @@ python app.py
 
 You should be able to view the webpage titled 'Phishing Website Detection'. 
 
-Enter valid numerical values (1 for completely phished, -1 for legitimate or 0 for partially phished) in all the input boxes comprising of various features of the website.
+Enter valid numerical values (1 for completely phished, -1 for legitimate or 0 for partially phished) in all the input boxes comprising of various features of the website URL.
 
 If everything goes well, you should be able to see the predcited nature of website on page!
