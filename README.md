@@ -12,7 +12,7 @@ The project has four major parts :
 
 ### Dataset
 
-Dataset used can be dowloaded from ![here](https://www.kaggle.com/code/elgroup/mainnotebook-website/data) 
+Dataset used can be dowloaded from [here](https://www.kaggle.com/code/elgroup/mainnotebook-website/data) 
 
 ### Model
 Libraries Involved: 
